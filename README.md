@@ -16,4 +16,4 @@ The site is served at https://profchiso.github.io from the repo
 `profchiso/profchiso.github.io`.
 
 After pushing, go to **Settings → Pages → Build and deployment**, choose
-**Deploy from a branch**, and pick `main` / `/ (root)`.
+**Deploy from a branch**, and pick `master` / `/ (root)`.
