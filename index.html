@@ -174,6 +174,7 @@ section.block{padding-block:84px 8px}
 .card h3{font-size:22px;font-weight:700}
 .card p{color:var(--muted);font-size:15.5px}
 .card .kicker{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.work .card:last-child:nth-child(odd){grid-column:1/-1}
 @media (max-width:760px){.work{grid-template-columns:1fr}.card{padding:22px}}
 
 /* experience */
@@ -525,12 +526,6 @@ footer{padding-block:32px 48px;color:var(--muted);font-size:13.5px;display:flex;
           <div class="tags"><span class="tag">Next.js 14</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span><span class="tag">OpenAI</span></div>
         </article>
         <article class="card">
-          <span class="kicker">Finance · Workflow</span>
-          <h3>FinTrack</h3>
-          <p>A financial approval workflow for staff, finance, leads and the C-suite. It handles NGN and USD, tracks budgets per SBU, keeps an audit trail, sends Slack notifications and exports PDF reports.</p>
-          <div class="tags"><span class="tag">NestJS</span><span class="tag">PostgreSQL</span><span class="tag">Slack API</span><span class="tag">PDF</span></div>
-        </article>
-        <article class="card">
           <span class="kicker">ERP · Microservices</span>
           <h3>Splendidcomm ERP</h3>
           <p>A multi-tenant ERP split into auth, accounting and inventory services, connected through RabbitMQ and Redis. I led the team that built it and owned the architecture.</p>
@@ -554,7 +549,7 @@ footer{padding-block:32px 48px;color:var(--muted);font-size:13.5px;display:flex;
             <div class="where">Lagos · Hybrid</div>
             <ul>
               <li>Built Thelix SSO, which brought <em>10+ services</em> onto one identity layer with RBAC</li>
-              <li>Built CommandHub, Atlas, Prospect, Portfolio Analytics, TCCT and FinTrack, end to end</li>
+              <li>Built CommandHub, Atlas, Prospect, Portfolio Analytics and TCCT, end to end</li>
             </ul>
           </div>
         </div>
